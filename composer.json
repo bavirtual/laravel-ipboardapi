@@ -1,0 +1,26 @@
+{
+    "name": "bavirtual/laravel-ipboardapi",
+    "description": "Laravel Package for Accessing IPBoards API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Bozwood-Davies"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "BAVirtual\\IPBoardApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BAVirtual\\IPBoardApi\\IpboardApiLaravelServiceProvider"
+            ]
+        }
+    }
+}
